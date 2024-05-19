@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.wrap {
+    width: 100%;
+    min-height: 100vh;
+    
+}
+
+.target {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    width: 400px;
+    height: 100vh;
+    background-color: #000000e9;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    right: -400px;
+    transition: 0.4s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.settingsItem {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #999;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.menuHeader {
+    width: 100%;
+    height: 50px;
+}
+
+.menuBtn {
+    background-color: #000;
+    color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: -60px;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+
+.colors {
+    display: flex;
+    align-items: center;
+}
+
+.colorItem {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0 3px;
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+.skinItem {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0 3px;
+   
+}
+.photo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+#other input{
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+}
+#other{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-size: cover;
+    background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s---tss4geP--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/3qul2upbi8ko7vdg8bm7.png);
+}
+.backgroundItem {
+   width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin: 0 3px;
+   
+}
+#space{ 
+   background-size: cover;
+   background-image: url('space.jpg');
+}
+#ghostHouse{ 
+    background-size: cover;
+    background-image: url('ghostHouse.jpg');
+}
+#world{
+    background-size: cover;
+    background-image: url('fantasticworld.jpg'); 
+}
+#ninjaHouse{
+    background-size: cover;
+    background-image: url('ninjaHouse.jpg'); 
+}
+
+.resetItem {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #999;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+     
+ }
+.reset{
+    background-color: red;
+    width: 100px;
+    height: 70px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    color: white;
+    cursor: pointer;
+}
+
+.target2 {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+    color: #fff;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.cPhoto{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+

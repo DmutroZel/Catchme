@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.css' integrity='sha512-U9Y1sGB3sLIpZm3ePcrKbXVhXlnQNcuwGQJ2WjPjnp6XHqVTdgIlbaDzJXJIAuCTp3y22t+nhI4B88F/5ldjFA==' crossorigin='anonymous'/>
+</head>
+<body>
+    <div class="wrap">
+        <div class="sumbtn"></div>
+        <div class="menu" id="menu">
+            <div class="menuHeader">
+                 <div class="menuBtn" id="menuBtn">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                 </div>
+                
+            </div>
+
+            <h3>Налаштування</h3>
+
+            <div class="settingsItem">
+                <div>Затримка <span id="delayValue">0</span>c</div>
+                <input id="delay" type="range" min="0" max="5" step="1">
+            </div>
+              <div class="settingsItem">
+                <div>Колір </div>
+               <div class="colors">
+                    <div class="colorItem" id="red"></div>
+                    <div class="colorItem" id="green"></div>
+                    <div class="colorItem" id="blue"></div>
+                    <div class="colorItem" id="other">
+                        <input type="color" id="myColor">
+                    </div>
+               </div>
+            </div>
+            <div class="settingsItem">
+                <div>Скін </div>
+                <div class="skinItem" id="cheese"><img src="cheese.jpg" alt="" class="photo"></div>
+                <div class="skinItem" id="watermelon"><img src="watermelon.jpg" alt="" class="photo"></div>
+                <div class="skinItem" id="ghost"><img src="ghost.jpg" alt="" class="photo"></div>
+                <div class="skinItem" id="cat"><img src="cat.jpg" alt="" class="photo"></div>
+            </div>
+            <div class="settingsItem">
+                <div>Фон</div>
+                <div class="backgroundItem" id="space"> 
+                </div>
+                <div class="backgroundItem" id="ghostHouse"></div>
+                <div class="backgroundItem" id="world"></div>
+                <div class="backgroundItem" id="ninjaHouse"></div>
+            </div>
+            <div class="resetItem">
+                <button class="reset" id="reset">Reset</button>
+            </div>
+        </div>
+
+        <div class="target" id="target"></div>
+        <img src="https://static.vecteezy.com/system/resources/previews/009/380/457/non_2x/cheese-clipart-design-illustration-free-png.png" alt="" class="target2" id="target2">
+        <img src="https://purepng.com/public/uploads/large/big-green-watermelon-t18.png" alt="" class="target2" id="target3">
+        <img src="https://i.pinimg.com/originals/fa/dc/a7/fadca71a5ed9f8495c03579751e59a81.png" alt="" class="target2" id="target4">
+        <img src="https://png.pngtree.com/png-clipart/20230511/ourmid/pngtree-isolated-cat-on-white-background-png-image_7094927.png" alt="" class="target2" id="target5">
+        
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
